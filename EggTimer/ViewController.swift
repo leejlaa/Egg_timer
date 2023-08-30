@@ -50,7 +50,6 @@ class ViewController: UIViewController {
 
     var player: AVAudioPlayer?
 
-    
     func playSound() {
         guard let url = Bundle.main.url(forResource: "alarm_sound", withExtension: "mp3") else { return }
 
